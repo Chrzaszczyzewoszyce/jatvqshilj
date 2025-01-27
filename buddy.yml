@@ -1,5 +1,11 @@
-- pipeline: "cjsrbiuumf"
-  trigger_mode: "SCHEDULED"
-  ref_type: "WILDCARD"
-  ref_name: "*"
-  cron: "5 * * * *"
+- pipeline: "fcctcfktva"
+  trigger_mode: "MANUAL"
+  ref_type: "NONE"
+  trigger_condition: "DAY"
+  zone_id: "Europe/Warsaw"
+  trigger_hours:
+  - 4
+  - 18
+  trigger_days:
+  - 4
+  - 7
